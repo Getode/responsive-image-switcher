@@ -1,0 +1,108 @@
+# Copyright (C) 2025 Getode
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Responsive Image Switcher 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/responsive-image-switcher\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-23T19:34:31+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: responsive-image-switcher\n"
+
+#. Plugin Name of the plugin
+#: responsive-image-switcher.php
+#: build/index.js:1
+#: src/index.js:9
+msgid "Responsive Image Switcher"
+msgstr ""
+
+#. Description of the plugin
+#: responsive-image-switcher.php
+msgid "A Gutenberg block plugin to display different images based on screen width."
+msgstr ""
+
+#. Author of the plugin
+#: responsive-image-switcher.php
+msgid "Getode"
+msgstr ""
+
+#: build/index.js:1
+#: src/index.js:48
+msgid "Select an image for desktop (≥ 768px):"
+msgstr ""
+
+#: build/index.js:1
+#: src/index.js:57
+msgid "Replace Desktop Image"
+msgstr ""
+
+#: build/index.js:1
+#: src/index.js:58
+msgid "Select Desktop Image"
+msgstr ""
+
+#: build/index.js:1
+#: src/index.js:66
+msgid "Desktop image preview"
+msgstr ""
+
+#: build/index.js:1
+#: src/index.js:70
+#: src/index.js:98
+msgid "Loading image..."
+msgstr ""
+
+#: build/index.js:1
+#: src/index.js:75
+msgid "Mobile Settings"
+msgstr ""
+
+#: build/index.js:1
+#: src/index.js:76
+msgid "Select an image for mobile (< 768px):"
+msgstr ""
+
+#: build/index.js:1
+#: src/index.js:85
+msgid "Replace Mobile Image"
+msgstr ""
+
+#: build/index.js:1
+#: src/index.js:86
+msgid "Select Mobile Image"
+msgstr ""
+
+#: build/index.js:1
+#: src/index.js:94
+msgid "Mobile image preview"
+msgstr ""
+
+#: block.json
+msgctxt "block title"
+msgid "Responsive Image Switcher"
+msgstr ""
+
+#: block.json
+msgctxt "block description"
+msgid "Block for switching images depending on screen width."
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "responsive"
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "switcher"
+msgstr ""

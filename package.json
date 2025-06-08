@@ -1,0 +1,25 @@
+{
+  "name": "responsive-image-switcher",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "make-json": "wp-i18n make-json languages --output-file=languages"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.7.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^14.4.0",
+    "@wordpress/blocks": "^13.9.0",
+    "@wordpress/components": "^28.9.0",
+    "@wordpress/i18n": "^5.9.0"
+  },
+  "engines": {
+    "node": "^20.19.2",
+    "npm": "^10.8.2"
+  },
+  "overrides": {
+    "@babel/runtime": "^7.26.10"
+  }
+}

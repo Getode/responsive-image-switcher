@@ -1,0 +1,22 @@
+{
+    "name": "ris/responsive-image-switcher",
+    "title": "Responsive Image Switcher",
+    "category": "media",
+    "icon": "images-alt2",
+    "description": "Block for switching images depending on screen width.",
+    "keywords": ["image", "responsive", "switcher"],
+    "attributes": {
+        "imageId": {
+            "type": "number",
+            "default": 0
+        },
+        "mobileImageId": {
+            "type": "number",
+            "default": 0
+        }
+    },
+    "editorScript": "file:./build/index.js",
+    "editorStyle": "file:./editor.css",
+    "render": "file:./responsive-image-switcher.php",
+    "textdomain": "responsive-image-switcher"
+}
