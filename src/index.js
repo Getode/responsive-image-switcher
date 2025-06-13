@@ -45,7 +45,7 @@ registerBlockType('respimgsw/responsive-image-switcher', {
         return (
             <>
                 <div>
-                    <p>{__('Select an image for desktop (≥ 768px):', 'responsive-image-switcher')}</p>
+                    <p className='has-small-font-size'>{__('Select an image for desktop (≥ 768px):', 'responsive-image-switcher')}</p>
                     <MediaUploadCheck>
                         <MediaUpload
                             onSelect={onSelectDesktopImage}
@@ -64,7 +64,7 @@ registerBlockType('respimgsw/responsive-image-switcher', {
                         <img
                             src={desktopImage}
                             alt={__('Desktop image preview', 'responsive-image-switcher')}
-                            style={{ maxWidth: '100%' }}
+                            style={{ maxWidth: '100%', marginTop: '5px' }}
                         />
                     ) : imageId ? (
                         <p>{__('Loading image...', 'responsive-image-switcher')}</p>
@@ -92,7 +92,7 @@ registerBlockType('respimgsw/responsive-image-switcher', {
                             <img
                                 src={mobileImage}
                                 alt={__('Mobile image preview', 'responsive-image-switcher')}
-                                style={{ maxWidth: '100%', marginTop: '10px' }}
+                                style={{ maxWidth: '100%', marginTop: '5px' }}
                             />
                         ) : mobileImageId ? (
                             <p>{__('Loading image...', 'responsive-image-switcher')}</p>

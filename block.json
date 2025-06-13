@@ -16,7 +16,6 @@
         }
     },
     "editorScript": "file:./build/index.js",
-    "editorStyle": "file:./editor.css",
     "render": "file:./responsive-image-switcher.php",
     "textdomain": "responsive-image-switcher"
 }

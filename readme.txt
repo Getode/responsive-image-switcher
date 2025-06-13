@@ -4,7 +4,7 @@ Tags: gutenberg, block, responsive, images, media
 Requires at least: 6.5
 Tested up to: 6.8
 Requires PHP: 8.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,8 +45,14 @@ To contribute:
 3. Build: `npm run build`
 
 == Frequently Asked Questions ==
-= Do I need coding skills to use this plugin? =
-No, the plugin is designed for ease of use. Simply add the block and upload your images.
+= Will this work with my existing WordPress setup? =
+Yes! The plugin works with:
+
+Any modern WordPress theme (block-based or classic)
+
+Most page builders (if they support Gutenberg blocks)
+
+WordPress 6.5+ and PHP 8.0+
 
 = Does it work with any theme? =
 Yes, as long as your theme supports the Gutenberg editor.
@@ -59,9 +65,17 @@ The plugin relies on you uploading optimized images. Use tools like TinyPNG or I
 2. Responsive images displayed on the frontend (desktop and mobile views).
 
 == Changelog ==
+= 1.0.2 =
+* Improved compatibility with WordPress 6.8
+* Fixed minor styling issues in the editor
+
+= 1.0.1 =
+* Added better error handling for image uploads
+* Improved accessibility of the block controls
+
 = 1.0.0 =
-* Initial release.
+* Initial release
 
 == Upgrade Notice ==
-= 1.0.0 =
-Initial release, no upgrades available yet.
+= 1.0.2 =
+Recommended update for all users - includes compatibility improvements and bug fixes.

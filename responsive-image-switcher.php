@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Responsive Image Switcher
  * Description: A Gutenberg block plugin to display different images based on screen width.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Getode
  * License: GPL-2.0+
  * Text Domain: responsive-image-switcher
@@ -73,7 +73,7 @@ function respimgsw_render_block( $attributes ) {
 	}
 
 	return sprintf(
-		'<div class="wp-block-respimgsw-responsive-image-switcher"><picture><source media="(min-width: 768px)" srcset="%s"><source media="(max-width: 767px)" srcset="%s">%s</picture></div>',
+		'<div class="wp-block-respimgsw-responsive-image-switcher"><picture class="wp-block-image"><source media="(min-width: 768px)" srcset="%s"><source media="(max-width: 767px)" srcset="%s">%s</picture></div>',
 		esc_url( wp_get_attachment_image_url( $image_id, 'full' ) ),
 		esc_url( wp_get_attachment_image_url( $mobile_image_id, 'full' ) ),
 		$desktop_image
